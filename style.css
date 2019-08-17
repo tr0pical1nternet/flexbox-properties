@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+body {
+
+}
+
+.flex {
+    display: flex;
+    outline: 1px solid #777;
+}
+
+.flex > * {
+    outline: 1px solid #777;
+}
+
+.flex-direction--row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-direction--column {
+    flex-direction: column;
+}
+
+.flex-direction--column-reverse {
+    flex-direction: column-reverse;
+}
+
